@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.saud.elab.allragetabs.MainActivity">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:orderInCategory="100"
+        android:title="@string/action_Search"
+        app:showAsAction="always"
+        tools:ignore="NewApi" />
+
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="@string/edit"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:orderInCategory="101"
+        android:title="Favorite"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_upload"
+        android:orderInCategory="100"
+        android:title="@string/upload"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RecipeLab</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit">Edit Recipe</string>
+    <string name="upload">Upload Recipe</string>
+    <string name="delete">Delete Recipe</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="action_Search">Search</string>
+
+</resources>
